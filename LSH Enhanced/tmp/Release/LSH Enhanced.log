@@ -1,0 +1,84 @@
+﻿  BaseMission.cpp
+  BelleGarageProperty.cpp
+  CasinoVehicleRobberyPrep1.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobberyPrep1.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  CasinoVehicleRobberyPrep2.cpp
+  Debug.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Debug.cpp(15,28): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Hooking.cpp
+  Hooking.Patterns.cpp
+  keyboard.cpp
+  main.cpp
+  MidsizedMessage.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.cpp(21,35): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.cpp(61,37): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.cpp(73,37): warning C4018: '<': signed/unsigned mismatch
+  CasinoVehicleRobbery.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(356,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1383,65): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1383,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1383,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1383,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1384,65): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1384,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1384,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1384,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1385,65): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1385,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1385,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1385,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1386,65): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1386,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1386,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1386,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1387,65): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1387,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1387,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1387,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1388,62): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1388,52): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1388,40): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1388,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1389,62): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1389,52): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1389,40): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1389,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1390,62): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1390,52): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1390,40): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1390,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1391,66): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1391,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1391,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1391,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1392,66): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1392,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1392,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1392,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1393,66): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1393,54): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1393,42): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1393,30): warning C4244: 'argument': conversion from 'float' to 'Any', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(1473,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobbery.cpp(2051,37): warning C4018: '>': signed/unsigned mismatch
+  RenderTarget.cpp
+  RobberyCompleteShard.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.cpp(14,34): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.cpp(71,71): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.cpp(77,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.cpp(88,36): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.cpp(98,36): warning C4018: '<': signed/unsigned mismatch
+  RobberyCompleteShardBlock.cpp
+  Screen.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Screen.cpp(114,35): warning C4018: '>': signed/unsigned mismatch
+  script.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobberyPrep1.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\SafezoneTools.h(9,13): warning C4244: 'initializing': conversion from 'Any' to 'float', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\SafezoneTools.h(16,97): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\SafezoneTools.h(16,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Sprite.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Sprite.cpp(11,14): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Sprite.cpp(12,14): warning C4244: 'initializing': conversion from 'const float' to 'int', possible loss of data
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Sprite.cpp(14,14): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+script.obj : error LNK2001: unresolved external symbol "public: void __cdecl UI::TimerBars::TimerBarPool::Draw(void)" (?Draw@TimerBarPool@TimerBars@UI@@QEAAXXZ)
+bin\Release\LSH Enhanced.asi : fatal error LNK1120: 1 unresolved externals

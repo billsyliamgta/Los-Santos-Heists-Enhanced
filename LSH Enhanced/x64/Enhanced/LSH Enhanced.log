@@ -1,0 +1,172 @@
+﻿  BaseMission.cpp
+  BelleClubhouseProperty.cpp
+  CasinoVehicleRobberyPrep1.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobberyPrep1.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  CasinoVehicleRobberyPrep2.cpp
+  Debug.cpp
+  Hooking.cpp
+  Hooking.Patterns.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(85,24): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(85,24): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,16): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,16): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,3): error C2535: 'hook::pattern::pattern(void)': member function already defined or declared
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(117,37): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(117,37): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,55): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,55): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,3): error C2535: 'hook::pattern::pattern(uintptr_t,uintptr_t)': member function already defined or declared
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(114,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(114,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(120,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(120,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(126,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(126,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(207,61): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(207,61): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(209,25): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(209,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(216,44): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(216,44): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(218,25): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(218,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(222,56): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(222,56): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(224,36): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(227,73): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(227,73): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(229,40): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(229,17): error C2248: 'hook::pattern::pattern': cannot access private member declared in class 'hook::pattern'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,31): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,31): error C2065: 'string_view': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,43): error C2146: syntax error: missing ')' before identifier 'pattern_string'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(234,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(234,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\excpt.h(28,3): error C2143: syntax error: missing ';' before 'identifier'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\excpt.h(22,14): warning C4091: 'typedef ': ignored on left of '_EXCEPTION_DISPOSITION' when no variable is declared
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\excpt.h(52,40): error C2988: unrecognizable template declaration/definition
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\excpt.h(52,40): error C2143: syntax error: missing ';' before '__cdecl'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(52,15): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(52,15): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(54,16): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(54,16): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(56,15): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(56,15): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(161,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(161,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(162,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(162,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(163,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(163,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(164,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(164,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(165,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(165,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(168,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(168,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(169,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(169,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(171,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(171,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(172,29): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(172,29): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(156,18): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(156,18): error C2143: syntax error: missing ';' before '*'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(181,29): error C2065: 'ULONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(181,40): error C2146: syntax error: missing ')' before identifier 'h'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(190,20): error C2065: 'LONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(190,30): error C2146: syntax error: missing ')' before identifier 'h'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(199,22): error C2065: 'UINT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(199,32): error C2146: syntax error: missing ')' before identifier 'h'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(209,22): error C2065: 'INT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(209,31): error C2146: syntax error: missing ')' before identifier 'h'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(219,29): error C2065: 'ULONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(219,40): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(228,28): error C2065: 'UINT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(228,38): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(237,46): error C2065: 'ULONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(237,57): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(246,20): error C2065: 'LONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(246,30): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(255,19): error C2065: 'INT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(255,28): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(264,28): error C2065: 'LONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(264,38): error C2146: syntax error: missing ')' before identifier 'p'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(274,22): error C2065: 'INT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(274,30): error C2146: syntax error: missing ')' before identifier 'i'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(284,22): error C2065: 'UINT_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(284,31): error C2146: syntax error: missing ')' before identifier 'ui'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(294,22): error C2065: 'LONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(294,31): error C2146: syntax error: missing ')' before identifier 'l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(304,22): error C2065: 'ULONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(304,32): error C2146: syntax error: missing ')' before identifier 'ul'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(318,22): error C2065: 'ULONG_PTR': undeclared identifier
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(318,34): error C2144: syntax error: 'unsigned long' should be preceded by ')'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(318,34): error C2062: type 'unsigned long' unexpected
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\basetsd.h(318,34): error C1003: error count exceeds 100; stopping compilation
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+  keyboard.cpp
+  main.cpp
+  MidsizedMessage.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.cpp(11,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  CasinoVehicleRobbery.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShardBlock.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.h(7,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  RenderTarget.cpp
+  RobberyCompleteShard.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShardBlock.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.h(7,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  RobberyCompleteShardBlock.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShardBlock.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+  Screen.cpp
+  script.cpp
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShardBlock.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\RobberyCompleteShard.h(7,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\MidsizedMessage.h(5,11): error C2429: language feature 'nested-namespace-definition' requires compiler flag '/std:c++17'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\CasinoVehicleRobberyPrep1.h(10,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.40.33807\include\string_view(12): warning STL4038: The contents of <string_view> are available only with C++17 or later.
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(85,24): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(85,24): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,16): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,16): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(111,3): error C2535: 'hook::pattern::pattern(void)': member function already defined or declared
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(117,37): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(117,37): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,55): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,55): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(123,3): error C2535: 'hook::pattern::pattern(uintptr_t,uintptr_t)': member function already defined or declared
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(114,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(114,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(120,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(120,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(126,25): error C2275: 'hook::pattern': expected an expression instead of a type
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(126,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(207,61): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(207,61): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(209,25): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(209,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(216,44): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(216,44): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(218,25): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(218,4): error C2660: 'hook::pattern::Initialize': function does not take 1 arguments
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(222,56): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(222,56): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(224,36): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(227,73): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(227,73): error C2061: syntax error: identifier 'string_view'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(229,40): error C2065: 'bytes': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(229,17): error C2248: 'hook::pattern::pattern': cannot access private member declared in class 'hook::pattern'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,31): error C2039: 'string_view': is not a member of 'std'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,31): error C2065: 'string_view': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(233,43): error C2146: syntax error: missing ')' before identifier 'pattern_string'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(234,2): error C2143: syntax error: missing ';' before '{'
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\Hooking.Patterns.h(234,2): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\script.cpp(27,4): error C2065: 'belleClubhouse': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\script.cpp(28,55): error C2065: 'belleClubhouse': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\script.cpp(28,88): error C2065: 'belleClubhouse': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\script.cpp(28,121): error C2065: 'belleClubhouse': undeclared identifier
+C:\Users\Liam\source\repos\lsh\LSH Enhanced\script.cpp(28,12): error C2660: 'ENTITY::SET_ENTITY_COORDS': function does not take 5 arguments
+  Generating Code...
