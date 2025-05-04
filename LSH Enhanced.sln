@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LSH Enhanced", "LSH Enhanced\LSH Enhanced.vcxproj", "{8D82F34A-1D64-465B-84B1-37F89AD3D20B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Enhanced|x64 = Enhanced|x64
+		Legacy|x64 = Legacy|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Enhanced|x64.ActiveCfg = Enhanced|x64
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Enhanced|x64.Build.0 = Enhanced|x64
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Legacy|x64.ActiveCfg = Legacy|x64
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Legacy|x64.Build.0 = Legacy|x64
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Release|x64.ActiveCfg = Release|x64
+		{8D82F34A-1D64-465B-84B1-37F89AD3D20B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1CF4082-D983-435A-9CB1-B66CB6ACB3A4}
+	EndGlobalSection
+EndGlobal
