@@ -72,6 +72,8 @@ namespace UI::Scaleforms
 
 		void SetRankScores(int xpStartLimit, int xpEndLimit, int previousXP, int currentXP, int playerLevel, int rankNext);
 
+		void SetOverrideParams(int speed, int duration);
+
 		/// <summary>
 		/// Calculates the rank value to an xp value.
 		/// </summary>
