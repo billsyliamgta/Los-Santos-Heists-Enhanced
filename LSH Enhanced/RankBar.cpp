@@ -1,5 +1,5 @@
 #include "RankBar.h"
-
+-- test
 void UI::Scaleforms::RankBar::Control()
 {
 	if (!UI::IS_RADAR_HIDDEN() && !UI::IS_RADAR_HIDDEN())
