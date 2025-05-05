@@ -22,7 +22,7 @@ void UI::Scaleforms::CashHud::Dispose()
 		GRAPHICS::_0xF44A5456AC3F4F97((int)HudComponent);
 	}
 
-	if (GRAPHICS::_HAS_HUD_SCALEFORM_LOADED(22)
+	if (GRAPHICS::_HAS_HUD_SCALEFORM_LOADED(22))
 	{
 		GRAPHICS::_0xF44A5456AC3F4F97(22);
 	}
