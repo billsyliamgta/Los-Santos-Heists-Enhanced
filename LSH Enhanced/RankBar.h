@@ -2,6 +2,7 @@
 
 #include <string>
 #include <cmath>
+#include "script.h"
 
 namespace UI::Scaleforms
 {
@@ -11,6 +12,8 @@ namespace UI::Scaleforms
 	class RankBar
 	{
 	public:
+        #pragma region Fields
+
 		/// <summary>
 		/// The name of the GFX.
 		/// </summary>
@@ -43,6 +46,32 @@ namespace UI::Scaleforms
 		/// </summary>
 		int PlayerLevel = 1;
 
+        #pragma endregion
+
+		/// <summary>
+		/// Set's the color of the Rank Bar.
+		/// </summary>
+		/// <param name="primaryColor"></param>
+		/// <param name="secondaryColor"></param>
+		void SetColor(int primaryColor, int secondaryColor);
+
+		/// <summary>
+		/// Prompts the Rank Bar to stay on screen.
+		/// </summary>
+		void StayOnScreen();
+
+		/// <summary>
+		/// Reset's the Rank Bar's movie.
+		/// </summary>
+		void ResetMovie();
+
+		inline void BeforeDraw()
+		{
+			SetRankScores(XPStartLimit, XPEndLimit, PreviousXP, CurrentXP, PlayerLevel, PlayerLevel + 1);
+		}
+
+		void SetRankScores(int xpStartLimit, int xpEndLimit, int previousXP, int currentXP, int playerLevel, int rankNext);
+
 		/// <summary>
 		/// Calculates the rank value to an xp value.
 		/// </summary>
@@ -59,5 +88,7 @@ namespace UI::Scaleforms
 			float level = (float)(multi * std::sqrt(multi));
 			return level;
 		}
+
+		void Control();
 	};
 }
