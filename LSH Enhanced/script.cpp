@@ -1,22 +1,11 @@
 #include "script.h"
-#include "keyboard.h"
-#include <string>
-#include "CasinoVehicleRobbery.h"
-#include "ScaledText.h"
-#include "RobberyCompleteShard.h"
-#include "RobberyCompleteShardBlock.h"
-#include "CasinoVehicleRobberyPrep1.h"
+#include "RankBar.h"
+#include "CashHud.h"
 #include "Debug.h"
-#include "Memory.h"
-#include "Hooking.h"
-#include "Hooking.Patterns.h"
-#include "BelleGarageProperty.h"
-#include "TimerBarBase.h"
-#include "TimerBarPool.h"
 
-PROPERTIES::BelleGarageProperty belleClubhouse;
+UI::Scaleforms::RankBar RankBar;
 
-UI::TimerBars::TimerBarPool _pool;
+UI::Scaleforms::CashHud CashHud;
 
 int main()
 {
@@ -27,12 +16,11 @@ int main()
 		case 0:
 		{
 			DLC2::_LOAD_MP_DLC_MAPS();
-			belleClubhouse.SetupIPL();
-			belleClubhouse.SpawnProps(false);
-			ENTITY::SET_ENTITY_COORDS(PLAYER::PLAYER_PED_ID(), belleClubhouse.interiorCoords.x, belleClubhouse.interiorCoords.y, belleClubhouse.interiorCoords.z, false, false, false, false);
 			AUDIO::SET_AUDIO_FLAG("LoadMPData", true);
 			DEBUG::Debug::PrintToLog("Loading MP Maps.");
 			DEBUG::Debug::PrintToLog("Loading MP Audio Data.");
+			DEBUG::Debug::PrintToLog("Rank Bar initialized.");
+			DEBUG::Debug::PrintToLog("Cash Hud initialized.");
 			DEBUG::Debug::PrintToLog(DLC2::IS_DLC_PRESENT(GAMEPLAY::GET_HASH_KEY("mpheist")) ? "Found mpheist DLC pack." : "mpheist DLC pack could not be found. Please verify your game files.");
 			DEBUG::Debug::PrintToLog(DLC2::IS_DLC_PRESENT(GAMEPLAY::GET_HASH_KEY("mpheist3")) ? "Found mpheist3 DLC pack." : "mpheist3 DLC pack could not be found. Please verify your game files.");
 			DEBUG::Debug::PrintToLog(DLC2::IS_DLC_PRESENT(GAMEPLAY::GET_HASH_KEY("mpheist4")) ? "Found mpheist4 DLC pack." : "mpheist4 DLC pack could not be found. Please verify your game files.");
@@ -45,8 +33,10 @@ int main()
 		break;
 		case 1:
 		{
-			_pool.Draw();
-			UI::Screen::ShowHelpTextThisFrame("bruh", true);
+			GAMEPLAY::TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME("cellphone_controller");
+			GAMEPLAY::TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME("cellphone_flashhand");
+			RankBar.Control();
+			CashHud.Control();
 		}
 		break;
 		}

@@ -4,7 +4,9 @@
 #include "..\..\inc\types.h"
 #include "..\..\inc\enums.h"
 #include "..\..\inc\main.h"
+#include "keyboard.h"
 #include "BaseMission.h"
+#include <string>
 
 static int Index;
 
