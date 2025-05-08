@@ -3,7 +3,7 @@
 #include "script.h"
 #include <string>
 #include "Extensions.h"
-
+#include <stdexcept>
 
 namespace UI::Scaleforms
 {
