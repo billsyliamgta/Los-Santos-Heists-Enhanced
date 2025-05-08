@@ -33,27 +33,41 @@ namespace UI::Scaleforms
 			SecuroServ = 27
 		};
 
-        #pragma region Fields
+  #pragma region Fields
 
 		/// <summary>
 		/// The name of the iFruit Scaleform Movie.
 		/// </summary>
 		const std::string gfxName = "CELLPHONE_IFRUIT";
 
+  /// <summary>
+		/// The Scaleform Movie handle.
+		/// </summary>
+  static int ScaleformMovieHandle;
+		
+  /// <summary>
+		/// The iFruit's render target used for 3d rendering onto the phone prop.
+		/// </summary>
+  static int MobilePhoneRT;
+
 		/// <summary>
 		/// SoundSet used for the audio of the iFruit phone. 
 		/// </summary>
 		const std::string AudioSoundSet = "Phone_SoundSet_Default";
 
-        #pragma endregion
+  #pragma endregion
 
-        #pragma region Scaleform Methods
+  #pragma region Scaleform Methods
 
 		/// <summary>
 		/// Loads the Scaleform Movie.
 		/// </summary>
 		void LoadScaleform();
+		
+		/// <summary>
+		/// Draws the Scaleform Movie.
+		/// </summary>
+		void Draw();
 
-        #pragma endregion
-	};
+  #pragma endregion
 }
