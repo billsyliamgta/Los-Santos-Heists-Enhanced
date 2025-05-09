@@ -1,13 +1,15 @@
 #include "iFruit.h"
 
-Vector3 getMobilePhonePosition()
+#pragma region Phone Methods
+
+Vector3 UI::Scaleforms::iFruit::getMobilePhonePosition()
 {
 	Vector3 pos;
 	MOBILE::GET_MOBILE_PHONE_POSITION(&pos);
 	return pos;
 }
 
-Vector3 getMobilePhoneRotation()
+Vector3 UI::Scaleforms::iFruit::getMobilePhoneRotation()
 {
 	Vector3 rot;
 	MOBILE::GET_MOBILE_PHONE_ROTATION(&rot, 0);
@@ -36,6 +38,10 @@ void UI::Scaleforms::iFruit::MovePhone(bool up)
 		}
 	}
 }
+
+#pragma endregion
+
+#pragma region Scaleform Methods
 
 void UI::Scaleforms::iFruit::LoadScaleform()
 {
@@ -173,10 +179,18 @@ void UI::Scaleforms::iFruit::LoadScaleform()
 	MOBILE::GET_MOBILE_PHONE_RENDER_ID((Any*)&MobilePhoneRT);
 	AUDIO::PLAY_SOUND_FRONTEND(-1, "Pull_Out", "Phone_SoundSet_Michael", true);
 	MOBILE::CREATE_MOBILE_PHONE(0);
-	MOBILE::SET_MOBILE_PHONE_POSITION(61.5f, -68.0f, -60.0f);
 	MOBILE::SET_MOBILE_PHONE_SCALE(280);
 	MovePhone(true);
 	IsMobilePhoneOpen = true;
+}
+
+void UI::Scaleforms::iFruit::Dispose()
+{
+	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(ScaleformMovieHandle))
+	{
+		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&ScaleformMovieHandle);
+		ScaleformMovieHandle = 0;
+	}
 }
 
 void UI::Scaleforms::iFruit::Draw()
@@ -188,6 +202,9 @@ void UI::Scaleforms::iFruit::Draw()
 	GRAPHICS::DRAW_SCALEFORM_MOVIE(ScaleformMovieHandle, 0.1f, 0.179f, 0.2f, 0.356f, 255, 255, 255, 255, 0);
 	UI::SET_TEXT_RENDER_ID(UI::GET_DEFAULT_SCRIPT_RENDERTARGET_RENDER_ID());
 }
+
+
+#pragma endregion
 
 void UI::Scaleforms::iFruit::Control()
 {
@@ -213,14 +230,5 @@ void UI::Scaleforms::iFruit::Control()
 			MOBILE::DESTROY_MOBILE_PHONE();
 			IsMobilePhoneOpen = false;
 		}
-	}
-}
-
-void UI::Scaleforms::iFruit::Dispose()
-{
-	if (GRAPHICS::HAS_SCALEFORM_MOVIE_LOADED(ScaleformMovieHandle))
-	{
-		GRAPHICS::SET_SCALEFORM_MOVIE_AS_NO_LONGER_NEEDED(&ScaleformMovieHandle);
-		ScaleformMovieHandle = 0;
 	}
 }

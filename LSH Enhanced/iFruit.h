@@ -54,6 +54,28 @@ namespace UI::Scaleforms
 
         #pragma endregion
 
+        #pragma region Phone Methods
+
+		/// <summary>
+		/// Returns the Mobile Phone position as a Vector3 struct.
+		/// </summary>
+		/// <returns></returns>
+		static Vector3 getMobilePhonePosition();
+
+		/// <summary>
+		/// Returns the Mobile Phone rotation as a Vector3 struct.
+		/// </summary>
+		/// <returns></returns>
+		static Vector3 getMobilePhoneRotation();
+
+		/// <summary>
+		/// Transitions the Mobile Phone in/out smoothly.
+		/// </summary>
+		/// <param name="up"></param>
+		static void MovePhone(bool up);
+
+        #pragma endregion
+
         #pragma region Scaleform Methods
 
 		/// <summary>
@@ -62,16 +84,17 @@ namespace UI::Scaleforms
 		static void LoadScaleform();
 
 		/// <summary>
+		/// Disposes the Scaleform Movie and resets the pointer to 0.
+		/// </summary>
+		static void Dispose();
+
+		/// <summary>
 		/// Draws the Scaleform Movie.
 		/// </summary>
 		static void Draw();
 
-		static void MovePhone(bool up);
+        #pragma endregion
 
 		static void Control();
-
-		static void Dispose();
-
-        #pragma endregion
 	};
 }
