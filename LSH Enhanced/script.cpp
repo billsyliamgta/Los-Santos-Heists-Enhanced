@@ -2,6 +2,7 @@
 #include "RankBar.h"
 #include "CashHud.h"
 #include "Debug.h"
+#include "iFruit.h"
 
 UI::Scaleforms::RankBar RankBar;
 
@@ -37,6 +38,8 @@ int main()
 			GAMEPLAY::TERMINATE_ALL_SCRIPTS_WITH_THIS_NAME("cellphone_flashhand");
 			RankBar.Control();
 			CashHud.Control();
+
+			UI::Scaleforms::iFruit::Control();
 		}
 		break;
 		}

@@ -4,6 +4,7 @@
 #include <string>
 #include "Extensions.h"
 #include <stdexcept>
+#include <vector>
 
 namespace UI::Scaleforms
 {
@@ -13,61 +14,64 @@ namespace UI::Scaleforms
 	class iFruit
 	{
 	public:
-		enum eApps : int
-		{
-			Homepage = 1 | 3 | 5,
-			Contacts = 2,
-			Call = 4,
-			TextsList = 6,
-			Text = 7,
-			EmailList = 8,
-			Email = 9,
-			Keypad = 11,
-			Settings = 13 | 18 | 22,
-			ListFor14 = 17,
-			List = 19,
-			JobList = 20 | 25,
-			Trackify = 23,
-			Coords = 24,
-			BlackText = 26,
-			SecuroServ = 27
-		};
+        #pragma region Fields
 
-  #pragma region Fields
+		inline static bool IsMobilePhoneOpen;
+
+		inline static Vector3 Var0;
+		
+		inline static float fVar3;
+		
+		inline static float fVar4;
+		
+		inline static float fVar5;
+
+		inline static int iLocal_16;
+
+		inline static Vector3 Global_20994;
+
+		inline static Vector3 Global_20997;
 
 		/// <summary>
 		/// The name of the iFruit Scaleform Movie.
 		/// </summary>
-		const std::string gfxName = "CELLPHONE_IFRUIT";
+		inline static std::string gfxName = "CELLPHONE_IFRUIT";
 
-  /// <summary>
+		/// <summary>
 		/// The Scaleform Movie handle.
 		/// </summary>
-  static int ScaleformMovieHandle;
-		
-  /// <summary>
+		inline static int ScaleformMovieHandle;
+
+		/// <summary>
 		/// The iFruit's render target used for 3d rendering onto the phone prop.
 		/// </summary>
-  static int MobilePhoneRT;
+		inline static int MobilePhoneRT;
 
 		/// <summary>
 		/// SoundSet used for the audio of the iFruit phone. 
 		/// </summary>
 		const std::string AudioSoundSet = "Phone_SoundSet_Default";
 
-  #pragma endregion
+        #pragma endregion
 
-  #pragma region Scaleform Methods
+        #pragma region Scaleform Methods
 
 		/// <summary>
 		/// Loads the Scaleform Movie.
 		/// </summary>
-		void LoadScaleform();
-		
+		static void LoadScaleform();
+
 		/// <summary>
 		/// Draws the Scaleform Movie.
 		/// </summary>
-		void Draw();
+		static void Draw();
 
-  #pragma endregion
+		static void MovePhone(bool up);
+
+		static void Control();
+
+		static void Dispose();
+
+        #pragma endregion
+	};
 }
